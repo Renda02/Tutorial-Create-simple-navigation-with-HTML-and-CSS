@@ -4,7 +4,8 @@ This tutorial will guide you in creating this simple navigation using HTML and C
 
 Hypertext Markup Language (HTML) is used to develop and edit web pages. The markup language is a computer language that uses tags to define elements within documents. 
 
-CSS stands for CSS, a language used for describing the presentation of documents written in HTML or XML. You can use CSS style sheets to style your web pages, such as the colors, fonts, and headings.
+CSS stands for  Cascading Style Sheet, a language used for describing the presentation of documents written in HTML or XML. CSS styles elements on your web pages, such as colors, fonts, and headings.
+
 
  This tutorial requires familiarity with the following:
 
@@ -27,8 +28,9 @@ Run the following commands to create the files you need for your project:
  ### Code Setup
  
 - Open index.html to add boilerplate HTML code and CSS links.
-- To create navigation, you will need to add a div container around the navigation. In addition, you will add a nav element that wraps both text tag and nested lists on the navigation.  
+- To create navigation, add a div container around the navigation. Additionally, add a nav element that wraps text tags and nested lists. 
 
-###### Here's how it looks in the text editor!
+###### Figure 1: shows how the `index.html` looks like 
+
 
 
