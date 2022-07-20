@@ -16,13 +16,13 @@ CSS stands for  Cascading Style Sheet, a language used for describing the presen
 
 ### Project Set up
 
-Follow this [documentation](https://code.visualstudio.com/docs/setup/setup-overview) for installing the Visual Studio Code. 
+1. Follow this [documentation](https://code.visualstudio.com/docs/setup/setup-overview) for installing the Visual Studio Code. 
 
-Run the following commands to create the files you need for your project:
-- Create an src directory: `mkdir navigation`
-- Open an src folder: `cd navigation`
-- Create HTML and CSS files:  `touch index.html style.css`
--Open text editor up with:  `code .`
+2. Run the following commands to create the files you need for your project:
+  - Create an src directory: `mkdir navigation`
+  - Open an src folder: `cd navigation`
+  - Create HTML and CSS files:  `touch index.html style.css`
+  - Open text editor up with:  `code .`
  
  
  ### Code Setup
@@ -30,7 +30,55 @@ Run the following commands to create the files you need for your project:
 - Open index.html to add boilerplate HTML code and CSS links.
 - To create navigation, add a div container around the navigation. Additionally, add a nav element that wraps text tags and nested lists. 
 
-###### Figure 1: shows how the `index.html` looks like 
+Here is the HTML code snippet:
+```html 
+<div class="container">
+        <nav>
+            <h2>FinestBrew</h2>
+            <ul>
+                <li>Home</li>
+                <li>Our Coffee</li>
+                <li>Locations</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+  ```
+  
+  ### Styling
+  You will use CSS flexbox to style navigation, and here is a CSS code snippet:
+  ```cs
+  body {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  background-color: #a2dbd7;
+}
+
+nav {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 600;
+  font-size: 1.6em;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 0 1em;
+  padding-left: 0.5em;
+  cursor: pointer;
+}
+ ```
+    
 
 
 
