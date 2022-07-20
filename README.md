@@ -1,6 +1,6 @@
 # Tutorial-Create-simple-navigation-with-HTML-and-CSS
 
-This tutorial will guide you in creating this simple navigation using HTML and CSS.
+This tutorial will guide you in creating simple navigation with HTML and CSS.
 
 Hypertext Markup Language (HTML) is used to develop and edit web pages. The markup language is a computer language that uses tags to define elements within documents. 
 
@@ -52,13 +52,14 @@ Here is the HTML code snippet:
   width: 100%;
   margin: 0 auto;
   font-size: 1em;
-  background-color: #a2dbd7;
+  background-color: #eef5f5;
 }
 
 nav {
-  padding: 2em;
+  padding: 1em 1.2em;
   display: flex;
   justify-content: space-between;
+  background-color: #a2dbd7;
 }
 
 h2 {
@@ -77,8 +78,11 @@ li {
   padding-left: 0.5em;
   cursor: pointer;
 }
+
  ```
-    
+In the browser, the navigation must look like the image below:
+
+![navigation image](https://user-images.githubusercontent.com/64105005/180049851-e4d9c332-7b28-4705-a85b-3c68535d3830.png)
 
 
 
